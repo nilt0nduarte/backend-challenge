@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actioncable (7.0.4.1)
       actionpack (= 7.0.4.1)
@@ -144,6 +144,7 @@ GEM
     rake (13.0.6)
     reline (0.3.2)
       io-console (~> 0.5)
+    smarter_csv (1.7.4)
     thor (1.2.1)
     timeout (0.3.1)
     tzinfo (2.0.5)
@@ -162,6 +163,7 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.1)
+  smarter_csv
   tzinfo-data
 
 RUBY VERSION
